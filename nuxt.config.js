@@ -1,6 +1,6 @@
 export default {
   generate: {
-    dir: 'static_github-pages'
+    dir: 'docs'
   },
 
   // Target: https://go.nuxtjs.dev/config-target
