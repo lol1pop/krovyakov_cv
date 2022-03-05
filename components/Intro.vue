@@ -13,6 +13,7 @@
                 </vue-typed-js>
               </span>
             </span>
+          <div class="info__about"></div>
         </div>
         <div class="info__column info__column_right">
           <div class="info__photo"></div>
@@ -129,7 +130,18 @@ export default Vue.extend({
   
   text-decoration: none;
 }
+
 a.button_download:hover {
   @include box-shadow(0px 0px 10px 0px $D-dark-purple);
+}
+
+.info__about {
+  min-width: 600px;
+  min-height: 300px;
+  background-image: url(static/carbon.png);
+  background-size: cover;
+  background-position: left;
+  margin-left: -16px;
+  margin-top: 16px;
 }
 </style>
