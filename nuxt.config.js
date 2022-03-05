@@ -1,6 +1,7 @@
 export default {
   generate: {
-    dir: 'docs'
+    dir: 'docs',
+    cache: { ignore: ['renovate.json'] }
   },
 
   // Target: https://go.nuxtjs.dev/config-target
